@@ -17,8 +17,8 @@ to install node_modules.
 Use the commands provided in ```package.json``` to build the TypeScript files then run the output.
 
 ```
-	npm run build
-	npm run start:ts
+npm run build
+npm run start:ts
 ```
 
 There is no :ts extension on ```build``` because you do not build the Javascript source files; only TypeScript files need to be built.
