@@ -1,7 +1,7 @@
 import * as googleAuth from 'google-auth-library';
 import { Credentials } from 'google-auth-library/build/src/auth/credentials';
 
-const scope: string = "https://www.googleapis.com/auth/gmail.send";
+const scope: string = "https://mail.google.com/";
 
 /**
  * Step 0: Create OAuth2 credentials at the Google Console (make sure to download JSON, not only just get key and secret)
